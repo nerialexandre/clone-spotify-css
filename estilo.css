@@ -1,0 +1,190 @@
+@media screen and (max-width: 767px) {
+    #tamanho-texto-capa{
+        font-size: 70px;
+    }
+}
+
+
+
+/*@@@@@@@@@@@@ layout @@@@@@@@@@@@*/
+html, body, .capa{
+    height: 100%;
+    width: 100%;
+}
+body{
+
+    background-image:   url(imagens/capa.png),
+                        url(imagens/ruido.png),
+                        linear-gradient(50deg, #b80b84, #7706b3);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+}
+
+/*@@@@@@@@@@@@ barra navegação @@@@@@@@@@@@*/
+.icone-logo{
+    height: 40px;
+    width: 132px;
+    background: url(imagens/spotify.svg) no-repeat;
+    display: block;
+    background-size: contain;
+    color: transparent;
+}
+
+.divisor{
+    width: 2px;
+    height: 14px;
+    margin: 15px 8px;
+    background: white;
+}
+.navbar-nav > li> a {
+    color: white;
+}
+.navbar-nav > li> a:hover {
+    color: rgb(8, 200, 243);
+}
+
+/* @@@@@@@@@@@@ imagem de capa @@@@@@@@@@@@ */
+.capa{
+    display: table;
+	width: 100%;
+    
+}
+
+/* pARAR AQUI */
+.texto-capa{
+    text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+    
+}
+
+#tamanho-texto-capa{
+    margin-top: -80px;
+    margin-bottom: 30px;
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -8px;  
+}
+
+/* @@@@@@@@@@@@ Botoes capa @@@@@@@@@@@@ */
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    margin: 5px auto;
+}
+
+.btn-roxo{
+    background: rgb(143, 38, 241);
+    font-weight: bold;
+}
+
+.btn-branco{
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.btn-roxo:hover{
+    background: rgb(63, 0, 171);
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+
+.btn-branco:hover{
+    background: white;
+    font-weight: bold;
+    color: black;
+    transition-duration: 0.2s;
+}
+
+/* @@@@@@@@@@@@ Serviços @@@@@@@@@@@@ */
+#servicos{
+    background: white;
+    padding: 15px;
+    width: 100%;
+
+}
+
+#img_conteudos{
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    max-width: 100%;
+} 
+
+h1{
+    font-weight: 700; letter-spacing: -2.5px;
+}
+
+h2{
+    font-weight: 700; letter-spacing: -2.5px;
+}
+
+h3{
+    font-weight: 700; letter-spacing: -2.5px;
+}
+
+.texto-roxo{
+    color:#7c25f8
+}
+
+/* @@@@@@@@@@@@ Recursos @@@@@@@@@@@@ */
+
+.img-iphone{
+    display: block;
+    position:relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.texto-branco{
+    color:white;
+}
+
+#recursos{
+    padding: 15px;
+}
+
+/* @@@@@@@@@@@@ Rodapé @@@@@@@@@@@@ */
+
+#rodape{
+    
+    background-color: black;
+    padding: 40px;
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+
+.itens-rodape{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: capitalize;
+    
+}
+
+.itens-rodape:hover{
+    color: rgb(8, 200, 243);
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.1s;
+} 
+.titulo-rodape{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: rgb(123, 121, 121);
+}
+.rede-social{
+    padding: 10px;
+}
+.container {
+    position: relative;
+}
